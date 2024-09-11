@@ -1,5 +1,4 @@
 ######security-http#########################
-###allow-80#
 resource "aws_security_group" "http-sg" {
   ingress {
     from_port   = 80
