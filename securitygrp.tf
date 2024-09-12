@@ -1,5 +1,8 @@
 ######pull-request####################
-########added line#########
+provider "aws" {
+region = "ap-south-1"
+}
+
 resource "aws_security_group" "http-sg" {
   ingress {
     from_port   = 80
